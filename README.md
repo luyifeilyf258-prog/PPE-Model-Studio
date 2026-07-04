@@ -245,38 +245,6 @@ case_high_porosity.yaml
 case_large_particle.yaml
 ```
 
-## Troubleshooting
-
-### The software does not start
-
-Make sure you did not copy only the `.exe` file. For the folder package, `_internal`, `config`, and `output` must be kept with the executable.
-
-### COMSOL cannot be found
-
-Reconfigure the paths to `comsolcompile.exe` and `comsolbatch.exe` in the software, and make sure that the COMSOL license is available.
-
-### No CSV result is generated
-
-Check whether the COMSOL run finished successfully and inspect:
-
-```text
-output/runs/run_xxx/logs/comsol_batch.log
-```
-
-### No curve appears after importing CSV
-
-Make sure the selected file is a valid result file, such as:
-
-```text
-output/runs/run_xxx/results/discharge_voltage.csv
-```
-
-## License
-
-This project is distributed under the GNU General Public License v3.0.
-
-The graphical user interface depends on PyQt6. COMSOL Multiphysics is not included in this project and must be installed separately by users.
-
 ## Citation
 
 If you use this software in a publication, report, or teaching material, please cite the associated article and the archived software DOI.
@@ -286,3 +254,9 @@ PPE Model Studio, version 1.0.0. Zenodo, 2026. https://doi.org/<Zenodo DOI>
 ```
 
 Replace `<Zenodo DOI>` with the DOI generated after the official archived release.
+
+## License
+
+This project is distributed under the GNU General Public License v3.0.
+
+The graphical user interface depends on PyQt6. COMSOL Multiphysics is not included in this software and must be installed separately by users.
