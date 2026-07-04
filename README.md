@@ -1,4 +1,5 @@
 # PPE Model Studio
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21194303.svg)](https://doi.org/10.5281/zenodo.21194303)
 
 PPE Model Studio is a local desktop application for constructing and previewing two-dimensional particle-packed electrode models for lithium-ion batteries. It supports YAML-based parameter configuration, particle/binder structure generation, COMSOL Java model export, COMSOL batch execution, and CSV result plotting.
 
@@ -247,13 +248,10 @@ case_large_particle.yaml
 
 ## Citation
 
-If you use this software in a publication, report, or teaching material, please cite the associated article and the archived software DOI.
+If you use this software, please cite the archived software release:
 
-```text
-PPE Model Studio, version 1.0.0. Zenodo, 2026. https://doi.org/<Zenodo DOI>
-```
+PPE Model Builder, version 1.0.1. Zenodo. https://doi.org/10.5281/zenodo.21194303
 
-Replace `<Zenodo DOI>` with the DOI generated after the official archived release.
 
 ## License
 
