@@ -1,0 +1,59 @@
+# Python virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Build and packaging outputs
+build/
+dist/
+*.egg-info/
+*.whl
+
+# PyInstaller temporary files
+*.manifest
+*.log
+
+# IDE and editor settings
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Test and cache folders
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# Local configuration and secrets
+.env
+*.env
+local_config.yaml
+local_config.yml
+config_local.yaml
+config_local.yml
+secrets.yaml
+secrets.yml
+*token*
+*secret*
+*password*
+
+# COMSOL local paths and license-related files
+comsol_local_config.yaml
+*.lic
+
+# Large temporary simulation outputs
+temp/
+tmp/
+cache/
+outputs/temp/

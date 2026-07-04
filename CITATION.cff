@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+title: "PPE Model Studio"
+message: "If you use this software, please cite the associated Journal of Chemical Education article and this archived software release."
+type: software
+authors:
+  - family-names: "Your-Family-Name"
+    given-names: "Your-Given-Name"
+version: "1.0.0"
+date-released: "2026-07-03"
+license: "GPL-3.0-only"
+repository-code: "https://github.com/YOUR-GITHUB-USERNAME/PPE-Model-Studio"
+abstract: "PPE Model Studio is a desktop software tool for constructing, visualizing, exporting, and running two-dimensional particle-packed porous electrode models for lithium-ion battery education and simulation."
+keywords:
+  - lithium-ion battery
+  - porous electrode model
+  - particle-packed electrode
+  - COMSOL
+  - battery education
