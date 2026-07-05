@@ -187,7 +187,7 @@ case_large_particle.yaml
 
 If you use this software, please cite the archived software release:
 
-PPE Model Builder, version 1.0.1. Zenodo. https://doi.org/10.5281/zenodo.21194303
+PPE Model Studio, version 1.0.1. Zenodo. https://doi.org/10.5281/zenodo.21194303
 
 
 ## License
