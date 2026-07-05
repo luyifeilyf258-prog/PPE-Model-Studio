@@ -1,7 +1,7 @@
 # PPE Model Studio
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21194303.svg)](https://doi.org/10.5281/zenodo.21194303)
 
-PPE Model Studio is a local desktop application for constructing and previewing two-dimensional particle-packed electrode models for lithium-ion batteries. It supports YAML-based parameter configuration, particle/binder structure generation, COMSOL Java model export, COMSOL batch execution, and CSV result plotting.
+PPE Model Studio is a local desktop application for constructing and previewing two-dimensional particle-packed electrode models for lithium-ion batteries. 
 
 Current version: `v1.0.0`
 
@@ -15,14 +15,13 @@ Current version: `v1.0.0`
 - Compile and run models through COMSOL batch tools
 - Export COMSOL MPH files and simulation result CSV files
 - Import one or more CSV files and plot voltage curves
-- Configure and check local COMSOL executable paths in the software
 
 ## Download
 
 Users can download the fixed release package from the GitHub Releases page:
 
 ```text
-https://github.com/<your-username>/<your-repository>/releases
+https://github.com/luyifeilyf258-prog/PPE-Model-Studio/releases
 ```
 
 Recommended installer:
@@ -30,14 +29,6 @@ Recommended installer:
 ```text
 PPE_Model_Studio_v1.0.0_Setup.exe
 ```
-
-Alternatively, users may download the folder-based Windows package:
-
-```text
-PPE_Model_Studio_v1.0.0_Windows.zip
-```
-
-Replace `<your-username>` and `<your-repository>` with the actual GitHub account and repository name.
 
 ## Installation and Startup
 
