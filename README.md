@@ -3,7 +3,7 @@
 
 PPE Model Studio is a local desktop application for constructing and previewing two-dimensional particle-packed electrode models for lithium-ion batteries. 
 
-Current version: `v1.0.0`
+Current version: `v1.0.1`
 
 ## Main Features
 
@@ -32,43 +32,15 @@ PPE_Model_Studio_v1.0.0_Setup.exe
 
 ## Installation and Startup
 
-### Option 1: Installer Package
-
-If you downloaded the installer:
-
-```text
-PPE_Model_Studio_v1.0.0_Setup.exe
-```
-
 Steps:
 
 1. Double-click the installer.
 2. Follow the installation wizard.
 3. Start `PPE Model Studio` from the desktop shortcut or the Start menu.
 
-### Option 2: Folder Package
-
-If you downloaded the folder-based ZIP package, extract it first. The extracted folder should look similar to:
-
-```text
-PPE_Model_Studio/
-├─ PPE_Model_Studio.exe
-├─ _internal/
-├─ config/
-└─ output/
-```
-
-Start the software by double-clicking:
-
-```text
-PPE_Model_Studio.exe
-```
-
-Do not copy only `PPE_Model_Studio.exe`. The complete `PPE_Model_Studio` folder must be kept, otherwise the program may not start correctly.
-
 ## User Environment Requirements
 
-For the installer or folder-based package, normal users do not need to install Python or Python packages manually. The packaged version already includes the required Python runtime and dependencies.
+The packaged version already includes the required Python runtime and dependencies.
 
 Recommended system:
 
@@ -91,30 +63,6 @@ The following functions require COMSOL:
 - Run COMSOL simulations
 - Export MPH model files
 - Export simulation result CSV files
-
-## Run from Source
-
-To run from source, install Python first and execute the following commands in the project root directory:
-
-```bash
-python -m venv .venv
-.venv\Scripts\activate
-pip install -r requirements.txt
-python main.py
-```
-
-If the startup file is not `main.py`, replace it with the actual entry file.
-
-Main dependencies include:
-
-```text
-numpy
-scipy
-matplotlib
-PyYAML
-pandas
-PyQt6
-```
 
 ## COMSOL Path Configuration
 
@@ -190,8 +138,6 @@ Run COMSOL
 ```
 
 to perform the full simulation workflow.
-
-9. After the simulation is completed, import the CSV result file to plot the voltage curve.
 
 ## Output Files
 
