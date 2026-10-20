@@ -1,0 +1,3050 @@
+{
+  "case_name": "case_demo",
+  "unit": "m",
+  "battery_params": {
+    "h": 4e-05,
+    "d": 1e-05,
+    "L_neg": 6.1e-05,
+    "L_sep": 2e-05,
+    "L_pos": 4.85e-05
+  },
+  "electrochem_params": {
+    "ephn": 0.5,
+    "ephp": 0.5,
+    "cl_init": 1200.0,
+    "e_pert": 0.01,
+    "omega": 0.1,
+    "v_max": 4.5,
+    "v_min": 2.5,
+    "c_rate": 1.0,
+    "soc0_pos": 0.15,
+    "k0_pos": 9.32e-10,
+    "r_film_pos": 0.01,
+    "c_dl_pos": 1.0,
+    "soc0_neg": 0.98,
+    "k0_neg": 3.67e-10,
+    "r_film_neg": 1e-05,
+    "c_dl_neg": 1.0,
+    "Eeq_neg0": 0.1,
+    "Eeq_pos0": 4.0,
+    "mesh_size": "normal",
+    "mesh_hauto": 5,
+    "transient_max_iter": 100,
+    "stationary_max_iter": 100,
+    "cutoff_voltage": 3.3,
+    "time_step": 1.0
+  },
+  "regions": [
+    {
+      "name": "neg_region",
+      "role": "negative",
+      "x": 0.0,
+      "y": 0.0,
+      "width": 4e-05,
+      "height": 6.1e-05
+    },
+    {
+      "name": "sep_region",
+      "role": "separator",
+      "x": 0.0,
+      "y": 6.1e-05,
+      "width": 4e-05,
+      "height": 2.0000000000000005e-05
+    },
+    {
+      "name": "pos_region",
+      "role": "positive",
+      "x": 0.0,
+      "y": 8.1e-05,
+      "width": 4e-05,
+      "height": 4.85e-05
+    }
+  ],
+  "negative_particles": [
+    {
+      "name": "neg_c1",
+      "electrode": "negative",
+      "center": {
+        "x": 2.945232080637844e-05,
+        "y": 4.078749191110182e-05
+      },
+      "radius": 5.263625910433008e-06,
+      "diameter": 1.0527251820866017e-05,
+      "area": 8.704020493094122e-11
+    },
+    {
+      "name": "neg_c2",
+      "electrode": "negative",
+      "center": {
+        "x": 3.166382892663249e-05,
+        "y": 1.5340014726443757e-05
+      },
+      "radius": 5.192838526599063e-06,
+      "diameter": 1.0385677053198126e-05,
+      "area": 8.471484277984922e-11
+    },
+    {
+      "name": "neg_c3",
+      "electrode": "negative",
+      "center": {
+        "x": 9.730217539569522e-06,
+        "y": 4.402811977719856e-05
+      },
+      "radius": 5.180538110466039e-06,
+      "diameter": 1.0361076220932079e-05,
+      "area": 8.431398545533994e-11
+    },
+    {
+      "name": "neg_c4",
+      "electrode": "negative",
+      "center": {
+        "x": 6.4658611076224945e-06,
+        "y": 1.6613751516681125e-05
+      },
+      "radius": 4.96608258947842e-06,
+      "diameter": 9.93216517895684e-06,
+      "area": 7.747788352159751e-11
+    },
+    {
+      "name": "neg_c5",
+      "electrode": "negative",
+      "center": {
+        "x": 2.782231063951448e-05,
+        "y": 5.3278307143691916e-05
+      },
+      "radius": 4.6809130392224375e-06,
+      "diameter": 9.361826078444875e-06,
+      "area": 6.88352697538001e-11
+    },
+    {
+      "name": "neg_c6",
+      "electrode": "negative",
+      "center": {
+        "x": 2.182261869498278e-05,
+        "y": 2.524669591636431e-05
+      },
+      "radius": 4.6285594378410836e-06,
+      "diameter": 9.257118875682167e-06,
+      "area": 6.73041064683046e-11
+    },
+    {
+      "name": "neg_c7",
+      "electrode": "negative",
+      "center": {
+        "x": 7.834719481228952e-06,
+        "y": 6.391710019020781e-06
+      },
+      "radius": 4.571640255067085e-06,
+      "diameter": 9.14328051013417e-06,
+      "area": 6.565895540449012e-11
+    },
+    {
+      "name": "neg_c8",
+      "electrode": "negative",
+      "center": {
+        "x": 1.6457635038332217e-05,
+        "y": 3.5042104669769076e-05
+      },
+      "radius": 4.503208784814768e-06,
+      "diameter": 9.006417569629536e-06,
+      "area": 6.370800983518294e-11
+    },
+    {
+      "name": "neg_c9",
+      "electrode": "negative",
+      "center": {
+        "x": 9.48721648374121e-06,
+        "y": 2.8297150180207294e-05
+      },
+      "radius": 4.427681681024949e-06,
+      "diameter": 8.855363362049899e-06,
+      "area": 6.158892927744144e-11
+    },
+    {
+      "name": "neg_c10",
+      "electrode": "negative",
+      "center": {
+        "x": 3.156583497247275e-05,
+        "y": 2.8229109567909118e-05
+      },
+      "radius": 4.303596741206157e-06,
+      "diameter": 8.607193482412315e-06,
+      "area": 5.8185264469688346e-11
+    },
+    {
+      "name": "neg_c11",
+      "electrode": "negative",
+      "center": {
+        "x": 6.010872191343348e-06,
+        "y": 5.672792763815066e-05
+      },
+      "radius": 4.256767892457935e-06,
+      "diameter": 8.51353578491587e-06,
+      "area": 5.692588787455481e-11
+    },
+    {
+      "name": "neg_c12",
+      "electrode": "negative",
+      "center": {
+        "x": 1.7093341345488588e-05,
+        "y": 5.645053910925544e-05
+      },
+      "radius": 4.118154479902822e-06,
+      "diameter": 8.236308959805645e-06,
+      "area": 5.327888657077877e-11
+    },
+    {
+      "name": "neg_c13",
+      "electrode": "negative",
+      "center": {
+        "x": 2.127795158156789e-05,
+        "y": 4.732205914739779e-05
+      },
+      "radius": 4.05411162232092e-06,
+      "diameter": 8.10822324464184e-06,
+      "area": 5.1634654654576445e-11
+    },
+    {
+      "name": "neg_c14",
+      "electrode": "negative",
+      "center": {
+        "x": 1.5795356498757493e-05,
+        "y": 1.1863669408226597e-05
+      },
+      "radius": 4.032570154539356e-06,
+      "diameter": 8.065140309078712e-06,
+      "area": 5.1087392371759946e-11
+    },
+    {
+      "name": "neg_c15",
+      "electrode": "negative",
+      "center": {
+        "x": 2.9426449237832748e-05,
+        "y": 5.782486217934858e-06
+      },
+      "radius": 3.9333862773752665e-06,
+      "diameter": 7.866772554750533e-06,
+      "area": 4.860523747010128e-11
+    },
+    {
+      "name": "neg_c16",
+      "electrode": "negative",
+      "center": {
+        "x": 4.205187053369009e-06,
+        "y": 3.611062302006629e-05
+      },
+      "radius": 3.88359608618559e-06,
+      "diameter": 7.76719217237118e-06,
+      "area": 4.738250118919514e-11
+    },
+    {
+      "name": "neg_c17",
+      "electrode": "negative",
+      "center": {
+        "x": 2.1124484936818257e-05,
+        "y": 5.4528341269466695e-06
+      },
+      "radius": 3.844834863705031e-06,
+      "diameter": 7.689669727410062e-06,
+      "area": 4.644139491359118e-11
+    },
+    {
+      "name": "neg_c18",
+      "electrode": "negative",
+      "center": {
+        "x": 3.581230104204537e-05,
+        "y": 4.931370302413612e-05
+      },
+      "radius": 3.6716592416708596e-06,
+      "diameter": 7.343318483341719e-06,
+      "area": 4.2352066875997424e-11
+    },
+    {
+      "name": "neg_c19",
+      "electrode": "negative",
+      "center": {
+        "x": 2.2883124148859048e-05,
+        "y": 1.655071422249599e-05
+      },
+      "radius": 3.41820165426046e-06,
+      "diameter": 6.83640330852092e-06,
+      "area": 3.6706690732321767e-11
+    },
+    {
+      "name": "neg_c20",
+      "electrode": "negative",
+      "center": {
+        "x": 1.6010657380428946e-05,
+        "y": 1.964324371048927e-05
+      },
+      "radius": 3.4057097235204137e-06,
+      "diameter": 6.8114194470408275e-06,
+      "area": 3.643888934754721e-11
+    },
+    {
+      "name": "neg_c21",
+      "electrode": "negative",
+      "center": {
+        "x": 3.569202950492597e-05,
+        "y": 5.6597709652330945e-05
+      },
+      "radius": 3.3879826089698824e-06,
+      "diameter": 6.775965217939765e-06,
+      "area": 3.6060539294889446e-11
+    }
+  ],
+  "positive_particles": [
+    {
+      "name": "pos_c1",
+      "electrode": "positive",
+      "center": {
+        "x": 3.4207257611023896e-05,
+        "y": 8.743763666884782e-05
+      },
+      "radius": 4.207395936126065e-06,
+      "diameter": 8.41479187225213e-06,
+      "area": 5.561304041027795e-11
+    },
+    {
+      "name": "pos_c2",
+      "electrode": "positive",
+      "center": {
+        "x": 4.368945984508036e-06,
+        "y": 0.00011811182605126557
+      },
+      "radius": 4.158195235637127e-06,
+      "diameter": 8.316390471274254e-06,
+      "area": 5.431998303593937e-11
+    },
+    {
+      "name": "pos_c3",
+      "electrode": "positive",
+      "center": {
+        "x": 1.633530131989273e-05,
+        "y": 0.00012443779520764344
+      },
+      "radius": 4.0848355337631685e-06,
+      "diameter": 8.169671067526337e-06,
+      "area": 5.242024222979954e-11
+    },
+    {
+      "name": "pos_c4",
+      "electrode": "positive",
+      "center": {
+        "x": 1.9583857087966025e-05,
+        "y": 0.00010498887550322472
+      },
+      "radius": 4.007493886049594e-06,
+      "diameter": 8.014987772099188e-06,
+      "area": 5.045400078290971e-11
+    },
+    {
+      "name": "pos_c5",
+      "electrode": "positive",
+      "center": {
+        "x": 2.7194744393760182e-05,
+        "y": 0.00010296307065616633
+      },
+      "radius": 3.7980571843984767e-06,
+      "diameter": 7.596114368796953e-06,
+      "area": 4.531822290820027e-11
+    },
+    {
+      "name": "pos_c6",
+      "electrode": "positive",
+      "center": {
+        "x": 8.521583641298177e-06,
+        "y": 8.769495140936537e-05
+      },
+      "radius": 3.7448484315228613e-06,
+      "diameter": 7.489696863045723e-06,
+      "area": 4.405734909214194e-11
+    },
+    {
+      "name": "pos_c7",
+      "electrode": "positive",
+      "center": {
+        "x": 1.4335972415327804e-05,
+        "y": 9.866811845616667e-05
+      },
+      "radius": 3.7280038208237984e-06,
+      "diameter": 7.456007641647597e-06,
+      "area": 4.36618939320414e-11
+    },
+    {
+      "name": "pos_c8",
+      "electrode": "positive",
+      "center": {
+        "x": 1.0835331037841715e-05,
+        "y": 0.00010822663242557014
+      },
+      "radius": 3.6794912947188045e-06,
+      "diameter": 7.358982589437609e-06,
+      "area": 4.253294281942065e-11
+    },
+    {
+      "name": "pos_c9",
+      "electrode": "positive",
+      "center": {
+        "x": 2.307927084489727e-05,
+        "y": 9.609858016441338e-05
+      },
+      "radius": 3.5676798587110945e-06,
+      "diameter": 7.135359717422189e-06,
+      "area": 3.998725809886888e-11
+    },
+    {
+      "name": "pos_c10",
+      "electrode": "positive",
+      "center": {
+        "x": 2.5335589200797168e-05,
+        "y": 0.0001233894742954336
+      },
+      "radius": 3.5175122995795883e-06,
+      "diameter": 7.0350245991591765e-06,
+      "area": 3.887058905405668e-11
+    },
+    {
+      "name": "pos_c11",
+      "electrode": "positive",
+      "center": {
+        "x": 3.5942091853290506e-05,
+        "y": 9.611855022970096e-05
+      },
+      "radius": 3.4760706227236283e-06,
+      "diameter": 6.952141245447257e-06,
+      "area": 3.796007443886152e-11
+    },
+    {
+      "name": "pos_c12",
+      "electrode": "positive",
+      "center": {
+        "x": 2.4856503442202864e-05,
+        "y": 0.00011198149575391472
+      },
+      "radius": 3.4454643610500767e-06,
+      "diameter": 6.890928722100153e-06,
+      "area": 3.72945521912311e-11
+    },
+    {
+      "name": "pos_c13",
+      "electrode": "positive",
+      "center": {
+        "x": 6.166801024853469e-06,
+        "y": 9.74812028364129e-05
+      },
+      "radius": 3.374618767733528e-06,
+      "diameter": 6.749237535467056e-06,
+      "area": 3.577661996009745e-11
+    },
+    {
+      "name": "pos_c14",
+      "electrode": "positive",
+      "center": {
+        "x": 2.4049911856514917e-05,
+        "y": 8.728250073590781e-05
+      },
+      "radius": 3.3202865352173145e-06,
+      "diameter": 6.640573070434629e-06,
+      "area": 3.463386829770037e-11
+    },
+    {
+      "name": "pos_c15",
+      "electrode": "positive",
+      "center": {
+        "x": 1.8045427622972488e-05,
+        "y": 0.00011214769388318997
+      },
+      "radius": 3.294312596544753e-06,
+      "diameter": 6.588625193089506e-06,
+      "area": 3.40941200848762e-11
+    },
+    {
+      "name": "pos_c16",
+      "electrode": "positive",
+      "center": {
+        "x": 3.408032435790505e-05,
+        "y": 0.000123298455085857
+      },
+      "radius": 3.238491939883918e-06,
+      "diameter": 6.476983879767836e-06,
+      "area": 3.294848982050616e-11
+    },
+    {
+      "name": "pos_c17",
+      "electrode": "positive",
+      "center": {
+        "x": 1.753202027092566e-05,
+        "y": 8.670862411609637e-05
+      },
+      "radius": 3.1988870029487888e-06,
+      "diameter": 6.3977740058975775e-06,
+      "area": 3.214753453094531e-11
+    },
+    {
+      "name": "pos_c18",
+      "electrode": "positive",
+      "center": {
+        "x": 3.28128403632473e-05,
+        "y": 0.0001110472924175135
+      },
+      "radius": 3.07710229365992e-06,
+      "diameter": 6.15420458731984e-06,
+      "area": 2.9746353904258054e-11
+    },
+    {
+      "name": "pos_c19",
+      "electrode": "positive",
+      "center": {
+        "x": 8.322129383045418e-06,
+        "y": 0.0001251108846804046
+      },
+      "radius": 3.061630213581417e-06,
+      "diameter": 6.123260427162834e-06,
+      "area": 2.9447968698346776e-11
+    },
+    {
+      "name": "pos_c20",
+      "electrode": "positive",
+      "center": {
+        "x": 3.6621899834741896e-05,
+        "y": 0.00011713258352177619
+      },
+      "radius": 3.0558997478637003e-06,
+      "diameter": 6.111799495727401e-06,
+      "area": 2.933783609724709e-11
+    },
+    {
+      "name": "pos_c21",
+      "electrode": "positive",
+      "center": {
+        "x": 2.925636468826338e-05,
+        "y": 0.00011783894719392252
+      },
+      "radius": 3.045828294045592e-06,
+      "diameter": 6.091656588091184e-06,
+      "area": 2.914477494881244e-11
+    },
+    {
+      "name": "pos_c22",
+      "electrode": "positive",
+      "center": {
+        "x": 3.687923691211355e-05,
+        "y": 0.00010284211031280287
+      },
+      "radius": 3.035891924582314e-06,
+      "diameter": 6.071783849164628e-06,
+      "area": 2.895492781654435e-11
+    },
+    {
+      "name": "pos_c23",
+      "electrode": "positive",
+      "center": {
+        "x": 1.2294638313537809e-05,
+        "y": 0.00011551712181839679
+      },
+      "radius": 3.016578841526733e-06,
+      "diameter": 6.033157683053466e-06,
+      "area": 2.8587701174611374e-11
+    },
+    {
+      "name": "pos_c24",
+      "electrode": "positive",
+      "center": {
+        "x": 3.580274404237043e-06,
+        "y": 0.00010926846760638361
+      },
+      "radius": 2.9619984405238747e-06,
+      "diameter": 5.923996881047749e-06,
+      "area": 2.7562558193998798e-11
+    },
+    {
+      "name": "pos_c25",
+      "electrode": "positive",
+      "center": {
+        "x": 1.9854171471975545e-05,
+        "y": 0.000118173489194966
+      },
+      "radius": 2.9486493180279754e-06,
+      "diameter": 5.897298636055951e-06,
+      "area": 2.7314680373096113e-11
+    },
+    {
+      "name": "pos_c26",
+      "electrode": "positive",
+      "center": {
+        "x": 3.007670417621285e-05,
+        "y": 9.328166216387353e-05
+      },
+      "radius": 2.935562677951194e-06,
+      "diameter": 5.871125355902388e-06,
+      "area": 2.7072763398885654e-11
+    }
+  ],
+  "negative_binders": [
+    {
+      "name": "neg_b1",
+      "electrode": "negative",
+      "center": {
+        "x": 2.8609039678446536e-05,
+        "y": 4.7249579677335166e-05
+      },
+      "width": 2.595562935305518e-07,
+      "length": 5.1383175167950954e-06,
+      "rotation_deg": -7.434896196254871,
+      "source": "particle_particle",
+      "owner_particle_name": null
+    },
+    {
+      "name": "neg_b2",
+      "electrode": "negative",
+      "center": {
+        "x": 2.2694175504207392e-05,
+        "y": 3.7799488777571316e-05
+      },
+      "width": 2.565773538720735e-07,
+      "length": 6.883017163482181e-06,
+      "rotation_deg": -113.85183217426463,
+      "source": "particle_particle",
+      "owner_particle_name": null
+    },
+    {
+      "name": "neg_b3",
+      "electrode": "negative",
+      "center": {
+        "x": 3.056882574644745e-05,
+        "y": 3.415328233238804e-05
+      },
+      "width": 2.8810675507928836e-07,
+      "length": 5.559570612681767e-06,
+      "rotation_deg": 170.44692136707644,
+      "source": "particle_particle",
+      "owner_particle_name": null
+    },
+    {
+      "name": "neg_b4",
+      "electrode": "negative",
+      "center": {
+        "x": 2.5010855035265402e-05,
+        "y": 4.433798686806504e-05
+      },
+      "width": 2.661459091937025e-07,
+      "length": 3.476919312914867e-06,
+      "rotation_deg": -51.361260342298166,
+      "source": "particle_particle",
+      "owner_particle_name": null
+    },
+    {
+      "name": "neg_b5",
+      "electrode": "negative",
+      "center": {
+        "x": 3.298925659777819e-05,
+        "y": 4.5529120050384703e-05
+      },
+      "width": 2.628788046352807e-07,
+      "length": 3.9355293455703775e-06,
+      "rotation_deg": 36.72046361433595,
+      "source": "particle_particle",
+      "owner_particle_name": null
+    },
+    {
+      "name": "neg_b6",
+      "electrode": "negative",
+      "center": {
+        "x": 2.659409360613311e-05,
+        "y": 2.044347764972772e-05
+      },
+      "width": 2.990929033994515e-07,
+      "length": 6.597896206532119e-06,
+      "rotation_deg": -44.81004575294477,
+      "source": "particle_particle",
+      "owner_particle_name": null
+    },
+    {
+      "name": "neg_b7",
+      "electrode": "negative",
+      "center": {
+        "x": 3.1612296730785405e-05,
+        "y": 2.211801817938426e-05
+      },
+      "width": 2.7316975819008544e-07,
+      "length": 5.76714090227363e-06,
+      "rotation_deg": -0.43560326633604846,
+      "source": "particle_particle",
+      "owner_particle_name": null
+    },
+    {
+      "name": "neg_b8",
+      "electrode": "negative",
+      "center": {
+        "x": 3.043748715612158e-05,
+        "y": 1.010138826911635e-05
+      },
+      "width": 2.5532701869220033e-07,
+      "length": 2.9712480155941045e-06,
+      "rotation_deg": -166.824540548965,
+      "source": "particle_particle",
+      "owner_particle_name": null
+    },
+    {
+      "name": "neg_b9",
+      "electrode": "negative",
+      "center": {
+        "x": 2.6614224852896325e-05,
+        "y": 1.6036263292141e-05
+      },
+      "width": 2.870028509457713e-07,
+      "length": 2.4054983850627953e-06,
+      "rotation_deg": -82.14945423547917,
+      "source": "particle_particle",
+      "owner_particle_name": null
+    },
+    {
+      "name": "neg_b10",
+      "electrode": "negative",
+      "center": {
+        "x": 1.3246150193426697e-05,
+        "y": 3.933178214837204e-05
+      },
+      "width": 2.9603624272594966e-07,
+      "length": 3.962456583214294e-06,
+      "rotation_deg": 143.17948563362773,
+      "source": "particle_particle",
+      "owner_particle_name": null
+    },
+    {
+      "name": "neg_b11",
+      "electrode": "negative",
+      "center": {
+        "x": 7.773181510604878e-06,
+        "y": 5.0710473583538434e-05
+      },
+      "width": 2.880910462626216e-07,
+      "length": 6.1552608237616716e-06,
+      "rotation_deg": -16.32352782631125,
+      "source": "particle_particle",
+      "owner_particle_name": null
+    },
+    {
+      "name": "neg_b12",
+      "electrode": "negative",
+      "center": {
+        "x": 1.3614916093721015e-05,
+        "y": 5.058204385756128e-05
+      },
+      "width": 2.9484204837299146e-07,
+      "length": 7.466620925390978e-06,
+      "rotation_deg": 30.656436967690734,
+      "source": "particle_particle",
+      "owner_particle_name": null
+    },
+    {
+      "name": "neg_b13",
+      "electrode": "negative",
+      "center": {
+        "x": 1.591029208766966e-05,
+        "y": 4.5790958338488326e-05
+      },
+      "width": 3.0207011601868375e-07,
+      "length": 5.082351389807097e-06,
+      "rotation_deg": 74.0794385725773,
+      "source": "particle_particle",
+      "owner_particle_name": null
+    },
+    {
+      "name": "neg_b14",
+      "electrode": "negative",
+      "center": {
+        "x": 6.689379405924878e-06,
+        "y": 3.9670528244947626e-05
+      },
+      "width": 2.957747899313129e-07,
+      "length": 2.856572665091313e-06,
+      "rotation_deg": -145.0916856298199,
+      "source": "particle_particle",
+      "owner_particle_name": null
+    },
+    {
+      "name": "neg_b15",
+      "electrode": "negative",
+      "center": {
+        "x": 7.169922819785246e-06,
+        "y": 1.1356123571081445e-05
+      },
+      "width": 3.0305347295976795e-07,
+      "length": 3.1599956850744925e-06,
+      "rotation_deg": 172.3727591089924,
+      "source": "particle_particle",
+      "owner_particle_name": null
+    },
+    {
+      "name": "neg_b16",
+      "electrode": "negative",
+      "center": {
+        "x": 8.027087828699872e-06,
+        "y": 2.2650920904523464e-05
+      },
+      "width": 2.7236606623062316e-07,
+      "length": 5.022418617350749e-06,
+      "rotation_deg": 14.49918656764169,
+      "source": "particle_particle",
+      "owner_particle_name": null
+    },
+    {
+      "name": "neg_b17",
+      "electrode": "negative",
+      "center": {
+        "x": 1.1442568705584995e-05,
+        "y": 1.4079877097004132e-05
+      },
+      "width": 2.796965618776746e-07,
+      "length": 3.7201443264237657e-06,
+      "rotation_deg": 116.98277084515624,
+      "source": "particle_particle",
+      "owner_particle_name": null
+    },
+    {
+      "name": "neg_b19",
+      "electrode": "negative",
+      "center": {
+        "x": 1.1795980352007346e-05,
+        "y": 1.8305516765661406e-05
+      },
+      "width": 3.0479592840072613e-07,
+      "length": 3.7351938539403915e-06,
+      "rotation_deg": 72.39070431262982,
+      "source": "particle_particle",
+      "owner_particle_name": null
+    },
+    {
+      "name": "neg_b20",
+      "electrode": "negative",
+      "center": {
+        "x": 2.2255452048582177e-05,
+        "y": 5.4924258985474184e-05
+      },
+      "width": 3.099563690651752e-07,
+      "length": 4.588810807879554e-06,
+      "rotation_deg": -73.52864402180721,
+      "source": "particle_particle",
+      "owner_particle_name": null
+    },
+    {
+      "name": "neg_b21",
+      "electrode": "negative",
+      "center": {
+        "x": 2.437629814003749e-05,
+        "y": 5.0141971734299736e-05
+      },
+      "width": 2.9975284831369397e-07,
+      "length": 2.297772450334107e-06,
+      "rotation_deg": -132.30641451135736,
+      "source": "particle_particle",
+      "owner_particle_name": null
+    },
+    {
+      "name": "neg_b22",
+      "electrode": "negative",
+      "center": {
+        "x": 3.215633410065277e-05,
+        "y": 5.112778049689675e-05
+      },
+      "width": 2.976249662732407e-07,
+      "length": 2.655101744337391e-06,
+      "rotation_deg": 116.39043983944893,
+      "source": "particle_particle",
+      "owner_particle_name": null
+    },
+    {
+      "name": "neg_b23",
+      "electrode": "negative",
+      "center": {
+        "x": 3.2203905393917394e-05,
+        "y": 5.5126438807394514e-05
+      },
+      "width": 3.0447058410997974e-07,
+      "length": 2.4894586360589983e-06,
+      "rotation_deg": 67.1302604134258,
+      "source": "particle_particle",
+      "owner_particle_name": null
+    },
+    {
+      "name": "neg_b24",
+      "electrode": "negative",
+      "center": {
+        "x": 1.9117546268369122e-05,
+        "y": 3.0185628040304448e-05
+      },
+      "width": 2.5642105009484494e-07,
+      "length": 4.319570418123019e-06,
+      "rotation_deg": -28.70969285367015,
+      "source": "particle_particle",
+      "owner_particle_name": null
+    },
+    {
+      "name": "neg_b25",
+      "electrode": "negative",
+      "center": {
+        "x": 1.558179122518504e-05,
+        "y": 2.6790006660443958e-05
+      },
+      "width": 2.7883831733993974e-07,
+      "length": 5.9148022382336045e-06,
+      "rotation_deg": -76.10984448121515,
+      "source": "particle_particle",
+      "owner_particle_name": null
+    },
+    {
+      "name": "neg_b26",
+      "electrode": "negative",
+      "center": {
+        "x": 2.6810751008679587e-05,
+        "y": 2.6773570973264274e-05
+      },
+      "width": 2.829155120799924e-07,
+      "length": 3.4903408797046323e-06,
+      "rotation_deg": 72.98056896819445,
+      "source": "particle_particle",
+      "owner_particle_name": null
+    },
+    {
+      "name": "neg_b27",
+      "electrode": "negative",
+      "center": {
+        "x": 2.2407817101423534e-05,
+        "y": 2.044815894412215e-05
+      },
+      "width": 2.6714763736306115e-07,
+      "length": 2.7253383858522432e-06,
+      "rotation_deg": 173.04691345724916,
+      "source": "particle_particle",
+      "owner_particle_name": null
+    },
+    {
+      "name": "neg_b28",
+      "electrode": "negative",
+      "center": {
+        "x": 1.858651336508223e-05,
+        "y": 2.212668864724035e-05
+      },
+      "width": 2.857447473018407e-07,
+      "length": 2.0475608489326993e-06,
+      "rotation_deg": -133.95357592038832,
+      "source": "particle_particle",
+      "owner_particle_name": null
+    },
+    {
+      "name": "neg_b29",
+      "electrode": "negative",
+      "center": {
+        "x": 1.1981628685593906e-05,
+        "y": 9.242200338707999e-06
+      },
+      "width": 3.090047488285912e-07,
+      "length": 3.2067635838813e-06,
+      "rotation_deg": 55.49625985352111,
+      "source": "particle_particle",
+      "owner_particle_name": null
+    },
+    {
+      "name": "neg_b31",
+      "electrode": "negative",
+      "center": {
+        "x": 1.2952072141277206e-05,
+        "y": 3.164993216022029e-05
+      },
+      "width": 2.983889405908702e-07,
+      "length": 3.0013757425860867e-06,
+      "rotation_deg": -134.05821184254575,
+      "source": "particle_particle",
+      "owner_particle_name": null
+    },
+    {
+      "name": "neg_b33",
+      "electrode": "negative",
+      "center": {
+        "x": 1.892932965058609e-05,
+        "y": 4.1338848265098086e-05
+      },
+      "width": 2.99428860634712e-07,
+      "length": 6.774156356568911e-06,
+      "rotation_deg": 21.431763583763978,
+      "source": "particle_particle",
+      "owner_particle_name": null
+    },
+    {
+      "name": "neg_b35",
+      "electrode": "negative",
+      "center": {
+        "x": 6.731933442475862e-06,
+        "y": 3.23729186879064e-05
+      },
+      "width": 2.6026842608462743e-07,
+      "length": 3.1978826567924642e-06,
+      "rotation_deg": -34.0593063407555,
+      "source": "particle_particle",
+      "owner_particle_name": null
+    },
+    {
+      "name": "neg_b36",
+      "electrode": "negative",
+      "center": {
+        "x": 1.2979627061775872e-05,
+        "y": 2.3664166609909065e-05
+      },
+      "width": 2.849556600266124e-07,
+      "length": 4.962178337795638e-06,
+      "rotation_deg": 142.99048019546385,
+      "source": "particle_particle",
+      "owner_particle_name": null
+    },
+    {
+      "name": "neg_b38",
+      "electrode": "negative",
+      "center": {
+        "x": 1.160407052366881e-05,
+        "y": 5.658793274751362e-05
+      },
+      "width": 2.615501471811167e-07,
+      "length": 4.8047482777811275e-06,
+      "rotation_deg": 91.43378466655254,
+      "source": "particle_particle",
+      "owner_particle_name": null
+    },
+    {
+      "name": "neg_b40",
+      "electrode": "negative",
+      "center": {
+        "x": 1.919565430296134e-05,
+        "y": 5.18644676179654e-05
+      },
+      "width": 2.6258702450325454e-07,
+      "length": 3.912718031136804e-06,
+      "rotation_deg": 155.37268210184268,
+      "source": "particle_particle",
+      "owner_particle_name": null
+    },
+    {
+      "name": "neg_b42",
+      "electrode": "negative",
+      "center": {
+        "x": 1.850492417858665e-05,
+        "y": 8.604113501335078e-06
+      },
+      "width": 2.588788411959206e-07,
+      "length": 2.4285174087503418e-06,
+      "rotation_deg": 140.26430401148255,
+      "source": "particle_particle",
+      "owner_particle_name": null
+    },
+    {
+      "name": "neg_b43",
+      "electrode": "negative",
+      "center": {
+        "x": 1.9531410738542245e-05,
+        "y": 1.4334271509603524e-05
+      },
+      "width": 3.0097057954524497e-07,
+      "length": 2.9092642194913784e-06,
+      "rotation_deg": 56.52387547915313,
+      "source": "particle_particle",
+      "owner_particle_name": null
+    },
+    {
+      "name": "neg_b44",
+      "electrode": "negative",
+      "center": {
+        "x": 1.59095101206798e-05,
+        "y": 1.5988439249959935e-05
+      },
+      "width": 2.9860888115823874e-07,
+      "length": 2.203843065516724e-06,
+      "rotation_deg": 1.5852646195719373,
+      "source": "particle_particle",
+      "owner_particle_name": null
+    },
+    {
+      "name": "neg_b45",
+      "electrode": "negative",
+      "center": {
+        "x": 2.5242286454900944e-05,
+        "y": 5.616342645110788e-06
+      },
+      "width": 2.5580538562790425e-07,
+      "length": 2.474840734210144e-06,
+      "rotation_deg": -92.2738903066154,
+      "source": "particle_particle",
+      "owner_particle_name": null
+    },
+    {
+      "name": "neg_b46",
+      "electrode": "negative",
+      "center": {
+        "x": 2.605446181144306e-05,
+        "y": 1.133170300636323e-05
+      },
+      "width": 2.5854974748764643e-07,
+      "length": 7.086699425313499e-06,
+      "rotation_deg": -31.285001935744962,
+      "source": "particle_particle",
+      "owner_particle_name": null
+    },
+    {
+      "name": "neg_b47",
+      "electrode": "negative",
+      "center": {
+        "x": 2.202884470214242e-05,
+        "y": 1.11597899198634e-05
+      },
+      "width": 2.6550072132722493e-07,
+      "length": 5.789081207321819e-06,
+      "rotation_deg": 9.004571427132301,
+      "source": "particle_particle",
+      "owner_particle_name": null
+    },
+    {
+      "name": "neg_b48",
+      "electrode": "negative",
+      "center": {
+        "x": 3.575040901609171e-05,
+        "y": 5.306207057706223e-05
+      },
+      "width": 2.8713235491343776e-07,
+      "length": 1.9902681180061935e-06,
+      "rotation_deg": -0.9459663718588135,
+      "source": "particle_particle",
+      "owner_particle_name": null
+    },
+    {
+      "name": "neg_b49",
+      "electrode": "negative",
+      "center": {
+        "x": 1.9442618873299237e-05,
+        "y": 1.8098901267523444e-05
+      },
+      "width": 2.7813619909632226e-07,
+      "length": 2.418281572225228e-06,
+      "rotation_deg": -65.7728131964816,
+      "source": "particle_particle",
+      "owner_particle_name": null
+    },
+    {
+      "name": "neg_bc1",
+      "electrode": "negative",
+      "center": {
+        "x": 7.834719481228952e-06,
+        "y": 1.4814899138602338e-06
+      },
+      "width": 2.6524657023424555e-07,
+      "length": 2.9629798277204676e-06,
+      "rotation_deg": 0.0,
+      "source": "particle_collector",
+      "owner_particle_name": "neg_c7"
+    },
+    {
+      "name": "neg_bc3",
+      "electrode": "negative",
+      "center": {
+        "x": 2.1124484936818257e-05,
+        "y": 1.284603989583948e-06
+      },
+      "width": 2.711602104970446e-07,
+      "length": 2.569207979167896e-06,
+      "rotation_deg": 0.0,
+      "source": "particle_collector",
+      "owner_particle_name": "neg_c17"
+    },
+    {
+      "name": "neg_bc2",
+      "electrode": "negative",
+      "center": {
+        "x": 2.9426449237832748e-05,
+        "y": 1.4162232549517042e-06
+      },
+      "width": 2.8469768050794374e-07,
+      "length": 2.8324465099034083e-06,
+      "rotation_deg": 0.0,
+      "source": "particle_collector",
+      "owner_particle_name": "neg_c15"
+    }
+  ],
+  "positive_binders": [
+    {
+      "name": "pos_b1",
+      "electrode": "positive",
+      "center": {
+        "x": 3.512841882376292e-05,
+        "y": 9.204702278112011e-05
+      },
+      "width": 2.0522515119441863e-07,
+      "length": 3.0899652514302287e-06,
+      "rotation_deg": 11.301374359576569,
+      "source": "particle_particle",
+      "owner_particle_name": null
+    },
+    {
+      "name": "pos_b2",
+      "electrode": "positive",
+      "center": {
+        "x": 2.8795957502629604e-05,
+        "y": 8.735498839527089e-05
+      },
+      "width": 2.4664972390633627e-07,
+      "length": 4.5127685487864295e-06,
+      "rotation_deg": -90.87502614960563,
+      "source": "particle_particle",
+      "owner_particle_name": null
+    },
+    {
+      "name": "pos_b4",
+      "electrode": "positive",
+      "center": {
+        "x": 3.1866700745416333e-05,
+        "y": 9.074912366714973e-05
+      },
+      "width": 2.258158417929024e-07,
+      "length": 1.7991841628232275e-06,
+      "rotation_deg": -35.25264506305099,
+      "source": "particle_particle",
+      "owner_particle_name": null
+    },
+    {
+      "name": "pos_b5",
+      "electrode": "positive",
+      "center": {
+        "x": 6.5477686655717315e-06,
+        "y": 0.00012196940262939874
+      },
+      "width": 2.275778452015865e-07,
+      "length": 2.6234442110732503e-06,
+      "rotation_deg": 29.458475507706243,
+      "source": "particle_particle",
+      "owner_particle_name": null
+    },
+    {
+      "name": "pos_b6",
+      "electrode": "positive",
+      "center": {
+        "x": 8.738650234467957e-06,
+        "y": 0.000116681277192811
+      },
+      "width": 2.2571499870628786e-07,
+      "length": 2.95852908230263e-06,
+      "rotation_deg": 108.12735346982976,
+      "source": "particle_particle",
+      "owner_particle_name": null
+    },
+    {
+      "name": "pos_b7",
+      "electrode": "positive",
+      "center": {
+        "x": 3.934763470719044e-06,
+        "y": 0.00011324334632410634
+      },
+      "width": 2.2969371941520057e-07,
+      "length": 3.538311334325324e-06,
+      "rotation_deg": -174.90370970657088,
+      "source": "particle_particle",
+      "owner_particle_name": null
+    },
+    {
+      "name": "pos_b8",
+      "electrode": "positive",
+      "center": {
+        "x": 2.104676285617813e-05,
+        "y": 0.00012388902124386397
+      },
+      "width": 2.2005871717679725e-07,
+      "length": 3.3593736386248624e-06,
+      "rotation_deg": 96.64366834605937,
+      "source": "particle_particle",
+      "owner_particle_name": null
+    },
+    {
+      "name": "pos_b10",
+      "electrode": "positive",
+      "center": {
+        "x": 1.1946359867580021e-05,
+        "y": 0.0001248064569949355
+      },
+      "width": 2.1763693063643934e-07,
+      "length": 2.6815419825340307e-06,
+      "rotation_deg": -85.19854713839918,
+      "source": "particle_particle",
+      "owner_particle_name": null
+    },
+    {
+      "name": "pos_b11",
+      "electrode": "positive",
+      "center": {
+        "x": 1.4149683060723853e-05,
+        "y": 0.00011961255078291528
+      },
+      "width": 2.395172295137402e-07,
+      "length": 4.467067995820186e-06,
+      "rotation_deg": -155.63161620440894,
+      "source": "particle_particle",
+      "owner_particle_name": null
+    },
+    {
+      "name": "pos_b12",
+      "electrode": "positive",
+      "center": {
+        "x": 1.830340556954339e-05,
+        "y": 0.00012093416854572605
+      },
+      "width": 2.210765054513955e-07,
+      "length": 1.9098691007104445e-06,
+      "rotation_deg": 150.67562153689508,
+      "source": "particle_particle",
+      "owner_particle_name": null
+    },
+    {
+      "name": "pos_b13",
+      "electrode": "positive",
+      "center": {
+        "x": 2.3465196977313292e-05,
+        "y": 0.00010395577162912914
+      },
+      "width": 2.496101268986145e-07,
+      "length": 2.0217170200144635e-06,
+      "rotation_deg": 104.90495150613481,
+      "source": "particle_particle",
+      "owner_particle_name": null
+    },
+    {
+      "name": "pos_b14",
+      "electrode": "positive",
+      "center": {
+        "x": 1.6892964081340043e-05,
+        "y": 0.00010174785898028351
+      },
+      "width": 2.1367959807471687e-07,
+      "length": 2.4137442213780034e-06,
+      "rotation_deg": -140.29843813691602,
+      "source": "particle_particle",
+      "owner_particle_name": null
+    },
+    {
+      "name": "pos_b15",
+      "electrode": "positive",
+      "center": {
+        "x": 1.509423958802528e-05,
+        "y": 0.0001066504456986875
+      },
+      "width": 2.4211877974973953e-07,
+      "length": 3.563200316021115e-06,
+      "rotation_deg": -69.69090481579732,
+      "source": "particle_particle",
+      "owner_particle_name": null
+    },
+    {
+      "name": "pos_b16",
+      "electrode": "positive",
+      "center": {
+        "x": 2.1391912950255252e-05,
+        "y": 0.00010039023519263313
+      },
+      "width": 2.4548537858570864e-07,
+      "length": 3.871382042887562e-06,
+      "rotation_deg": 158.536645387441,
+      "source": "particle_particle",
+      "owner_particle_name": null
+    },
+    {
+      "name": "pos_b17",
+      "electrode": "positive",
+      "center": {
+        "x": 2.2347070538058882e-05,
+        "y": 0.00010865346839073595
+      },
+      "width": 2.3417417000910372e-07,
+      "length": 3.1679943464665343e-06,
+      "rotation_deg": 37.01739402200165,
+      "source": "particle_particle",
+      "owner_particle_name": null
+    },
+    {
+      "name": "pos_b18",
+      "electrode": "positive",
+      "center": {
+        "x": 1.8758451733798045e-05,
+        "y": 0.00010882975814022249
+      },
+      "width": 2.1366665481602992e-07,
+      "length": 1.8459020180119947e-06,
+      "rotation_deg": -12.128399000809956,
+      "source": "particle_particle",
+      "owner_particle_name": null
+    },
+    {
+      "name": "pos_b19",
+      "electrode": "positive",
+      "center": {
+        "x": 2.5092585125741245e-05,
+        "y": 9.94567299796594e-05
+      },
+      "width": 2.1630921823423858e-07,
+      "length": 2.4793434019239036e-06,
+      "rotation_deg": -149.05601415702844,
+      "source": "particle_particle",
+      "owner_particle_name": null
+    },
+    {
+      "name": "pos_b20",
+      "electrode": "positive",
+      "center": {
+        "x": 3.166351187204514e-05,
+        "y": 9.946640261734032e-05
+      },
+      "width": 2.4038371556923697e-07,
+      "length": 5.651318542728362e-06,
+      "rotation_deg": 128.04204675961418,
+      "source": "particle_particle",
+      "owner_particle_name": null
+    },
+    {
+      "name": "pos_b21",
+      "electrode": "positive",
+      "center": {
+        "x": 2.5992439383313368e-05,
+        "y": 0.00010760027353901747
+      },
+      "width": 2.306390075570884e-07,
+      "length": 3.883976359693558e-06,
+      "rotation_deg": -14.535233386280407,
+      "source": "particle_particle",
+      "owner_particle_name": null
+    },
+    {
+      "name": "pos_b22",
+      "electrode": "positive",
+      "center": {
+        "x": 3.015807858109621e-05,
+        "y": 0.00010722719338627216
+      },
+      "width": 2.3445363376373317e-07,
+      "length": 4.6883063032882785e-06,
+      "rotation_deg": 34.79720652090216,
+      "source": "particle_particle",
+      "owner_particle_name": null
+    },
+    {
+      "name": "pos_b23",
+      "electrode": "positive",
+      "center": {
+        "x": 3.232278033424752e-05,
+        "y": 0.00010289902094091631
+      },
+      "width": 2.1805179133571556e-07,
+      "length": 4.559786060946812e-06,
+      "rotation_deg": 90.71559318059296,
+      "source": "particle_particle",
+      "owner_particle_name": null
+    },
+    {
+      "name": "pos_b24",
+      "electrode": "positive",
+      "center": {
+        "x": 2.872800270824707e-05,
+        "y": 9.781237419012511e-05
+      },
+      "width": 2.165786359281691e-07,
+      "length": 5.051040598586515e-06,
+      "rotation_deg": 163.4227944663561,
+      "source": "particle_particle",
+      "owner_particle_name": null
+    },
+    {
+      "name": "pos_b25",
+      "electrode": "positive",
+      "center": {
+        "x": 1.1431735560414393e-05,
+        "y": 9.318711651581048e-05
+      },
+      "width": 2.1678856811892045e-07,
+      "length": 6.813795166671015e-06,
+      "rotation_deg": 27.917924215395026,
+      "source": "particle_particle",
+      "owner_particle_name": null
+    },
+    {
+      "name": "pos_b26",
+      "electrode": "positive",
+      "center": {
+        "x": 7.311712417789395e-06,
+        "y": 9.272306054560613e-05
+      },
+      "width": 2.342883674166137e-07,
+      "length": 4.7259705314140425e-06,
+      "rotation_deg": -13.529399124289682,
+      "source": "particle_particle",
+      "owner_particle_name": null
+    },
+    {
+      "name": "pos_b27",
+      "electrode": "positive",
+      "center": {
+        "x": 1.3230321776314985e-05,
+        "y": 8.717950946905445e-05
+      },
+      "width": 2.1277511165183842e-07,
+      "length": 3.85645844832805e-06,
+      "rotation_deg": 96.24700900158477,
+      "source": "particle_particle",
+      "owner_particle_name": null
+    },
+    {
+      "name": "pos_b28",
+      "electrode": "positive",
+      "center": {
+        "x": 1.2579395511703228e-05,
+        "y": 0.00010346445805827826
+      },
+      "width": 2.2937619055068156e-07,
+      "length": 4.6237538581695555e-06,
+      "rotation_deg": -20.11438789186504,
+      "source": "particle_particle",
+      "owner_particle_name": null
+    },
+    {
+      "name": "pos_b29",
+      "electrode": "positive",
+      "center": {
+        "x": 1.8765303715805083e-05,
+        "y": 9.736639731795794e-05
+      },
+      "width": 2.3957989931282646e-07,
+      "length": 3.6412935038258804e-06,
+      "rotation_deg": 106.37735579578423,
+      "source": "particle_particle",
+      "owner_particle_name": null
+    },
+    {
+      "name": "pos_b30",
+      "electrode": "positive",
+      "center": {
+        "x": 1.0120244290096498e-05,
+        "y": 9.805560669440992e-05
+      },
+      "width": 2.0994816626605153e-07,
+      "length": 2.9279788424960245e-06,
+      "rotation_deg": -98.26677494602876,
+      "source": "particle_particle",
+      "owner_particle_name": null
+    },
+    {
+      "name": "pos_b31",
+      "electrode": "positive",
+      "center": {
+        "x": 1.5985223947390763e-05,
+        "y": 9.249667946206261e-05
+      },
+      "width": 2.1140704507115266e-07,
+      "length": 7.184017104366929e-06,
+      "rotation_deg": 165.03795164841688,
+      "source": "particle_particle",
+      "owner_particle_name": null
+    },
+    {
+      "name": "pos_b32",
+      "electrode": "positive",
+      "center": {
+        "x": 8.455508664074907e-06,
+        "y": 0.00010274905946772941
+      },
+      "width": 2.1938071494195222e-07,
+      "length": 6.425194402971118e-06,
+      "rotation_deg": -156.51666462037244,
+      "source": "particle_particle",
+      "owner_particle_name": null
+    },
+    {
+      "name": "pos_b33",
+      "electrode": "positive",
+      "center": {
+        "x": 1.4567270931295124e-05,
+        "y": 0.00011025617051921394
+      },
+      "width": 2.3373537285640232e-07,
+      "length": 2.976974035033971e-06,
+      "rotation_deg": 61.46135874919538,
+      "source": "particle_particle",
+      "owner_particle_name": null
+    },
+    {
+      "name": "pos_b34",
+      "electrode": "positive",
+      "center": {
+        "x": 1.1613776491522143e-05,
+        "y": 0.00011211563402068943
+      },
+      "width": 2.1626288391680883e-07,
+      "length": 2.4130542102172203e-06,
+      "rotation_deg": 11.319071242741185,
+      "source": "particle_particle",
+      "owner_particle_name": null
+    },
+    {
+      "name": "pos_b35",
+      "electrode": "positive",
+      "center": {
+        "x": 6.941474903545044e-06,
+        "y": 0.00010878579502272289
+      },
+      "width": 2.2834088140358374e-07,
+      "length": 2.348362032108115e-06,
+      "rotation_deg": -81.82812064991234,
+      "source": "particle_particle",
+      "owner_particle_name": null
+    },
+    {
+      "name": "pos_b36",
+      "electrode": "positive",
+      "center": {
+        "x": 2.357474415467736e-05,
+        "y": 9.159832517678822e-05
+      },
+      "width": 2.2854613862018856e-07,
+      "length": 3.7033769544367226e-06,
+      "rotation_deg": 173.71710042481033,
+      "source": "particle_particle",
+      "owner_particle_name": null
+    },
+    {
+      "name": "pos_b37",
+      "electrode": "positive",
+      "center": {
+        "x": 2.0235302438146672e-05,
+        "y": 9.1284530756317e-05
+      },
+      "width": 2.416146780718838e-07,
+      "length": 5.831186146042255e-06,
+      "rotation_deg": -149.42692347498735,
+      "source": "particle_particle",
+      "owner_particle_name": null
+    },
+    {
+      "name": "pos_b38",
+      "electrode": "positive",
+      "center": {
+        "x": 2.679788229673795e-05,
+        "y": 9.460159933734e-05
+      },
+      "width": 2.052886643396478e-07,
+      "length": 2.66571732365357e-06,
+      "rotation_deg": 111.92796373201803,
+      "source": "particle_particle",
+      "owner_particle_name": null
+    },
+    {
+      "name": "pos_b39",
+      "electrode": "positive",
+      "center": {
+        "x": 2.981258374695688e-05,
+        "y": 0.00012334287568523567
+      },
+      "width": 2.2536312876437076e-07,
+      "length": 3.6782056494967673e-06,
+      "rotation_deg": 90.5963391866336,
+      "source": "particle_particle",
+      "owner_particle_name": null
+    },
+    {
+      "name": "pos_b40",
+      "electrode": "positive",
+      "center": {
+        "x": 2.7398029413863002e-05,
+        "y": 0.00012046973805078927
+      },
+      "width": 2.3205136378024078e-07,
+      "length": 1.873142539169726e-06,
+      "rotation_deg": 144.76342108745834,
+      "source": "particle_particle",
+      "owner_particle_name": null
+    },
+    {
+      "name": "pos_b41",
+      "electrode": "positive",
+      "center": {
+        "x": 2.244034249645479e-05,
+        "y": 0.00012063442725849226
+      },
+      "width": 2.3621362083385407e-07,
+      "length": 2.7169130585821754e-06,
+      "rotation_deg": -133.5786223398856,
+      "source": "particle_particle",
+      "owner_particle_name": null
+    },
+    {
+      "name": "pos_b42",
+      "electrode": "positive",
+      "center": {
+        "x": 3.643345151449284e-05,
+        "y": 9.964381686094757e-05
+      },
+      "width": 2.4289499513374347e-07,
+      "length": 1.9045847146329695e-06,
+      "rotation_deg": 7.934894438663476,
+      "source": "particle_particle",
+      "owner_particle_name": null
+    },
+    {
+      "name": "pos_b43",
+      "electrode": "positive",
+      "center": {
+        "x": 3.2826929637068376e-05,
+        "y": 9.461185246292689e-05
+      },
+      "width": 2.1333924913952613e-07,
+      "length": 1.7066956939862628e-06,
+      "rotation_deg": -115.81147117683373,
+      "source": "particle_particle",
+      "owner_particle_name": null
+    },
+    {
+      "name": "pos_b44",
+      "electrode": "positive",
+      "center": {
+        "x": 2.1394300488037778e-05,
+        "y": 0.00011206597751119144
+      },
+      "width": 2.3679044664653712e-07,
+      "length": 1.7582705125996186e-06,
+      "rotation_deg": -88.602194079672,
+      "source": "particle_particle",
+      "owner_particle_name": null
+    },
+    {
+      "name": "pos_b45",
+      "electrode": "positive",
+      "center": {
+        "x": 2.897186520216261e-05,
+        "y": 0.00011149828536139307
+      },
+      "width": 2.3480707654215898e-07,
+      "length": 3.119069521193691e-06,
+      "rotation_deg": 96.6967932738629,
+      "source": "particle_particle",
+      "owner_particle_name": null
+    },
+    {
+      "name": "pos_b46",
+      "electrode": "positive",
+      "center": {
+        "x": 2.714644082552845e-05,
+        "y": 0.00011503004575887178
+      },
+      "width": 2.1249013258668974e-07,
+      "length": 2.457410411914073e-06,
+      "rotation_deg": 36.91227292051249,
+      "source": "particle_particle",
+      "owner_particle_name": null
+    },
+    {
+      "name": "pos_b47",
+      "electrode": "positive",
+      "center": {
+        "x": 2.223825903731241e-05,
+        "y": 0.00011522241464507224
+      },
+      "width": 2.2110074345436556e-07,
+      "length": 3.1645722714430004e-06,
+      "rotation_deg": -38.93373941011413,
+      "source": "particle_particle",
+      "owner_particle_name": null
+    },
+    {
+      "name": "pos_b48",
+      "electrode": "positive",
+      "center": {
+        "x": 4.84037318689698e-06,
+        "y": 0.0001035259719099772
+      },
+      "width": 2.4938353611543793e-07,
+      "length": 7.315251488693413e-06,
+      "rotation_deg": -12.376482396448989,
+      "source": "particle_particle",
+      "owner_particle_name": null
+    },
+    {
+      "name": "pos_b49",
+      "electrode": "positive",
+      "center": {
+        "x": 2.0745616677646037e-05,
+        "y": 8.699156957769384e-05
+      },
+      "width": 2.0951940111699895e-07,
+      "length": 1.6537265317551957e-06,
+      "rotation_deg": -95.03170931163038,
+      "source": "particle_particle",
+      "owner_particle_name": null
+    },
+    {
+      "name": "pos_b50",
+      "electrode": "positive",
+      "center": {
+        "x": 2.716555745551866e-05,
+        "y": 9.038386210846814e-05
+      },
+      "width": 2.2490876841356113e-07,
+      "length": 3.811768980595764e-06,
+      "rotation_deg": 45.13164283913644,
+      "source": "particle_particle",
+      "owner_particle_name": null
+    },
+    {
+      "name": "pos_b51",
+      "electrode": "positive",
+      "center": {
+        "x": 1.5080171084496813e-05,
+        "y": 0.00011388505856100961
+      },
+      "width": 2.3342596784015668e-07,
+      "length": 1.9320112608850987e-06,
+      "rotation_deg": -59.633662271638194,
+      "source": "particle_particle",
+      "owner_particle_name": null
+    },
+    {
+      "name": "pos_b52",
+      "electrode": "positive",
+      "center": {
+        "x": 1.8987065653069132e-05,
+        "y": 0.00011528474285243668
+      },
+      "width": 2.1614727597822456e-07,
+      "length": 1.6091824972739513e-06,
+      "rotation_deg": 16.708012995548824,
+      "source": "particle_particle",
+      "owner_particle_name": null
+    },
+    {
+      "name": "pos_b53",
+      "electrode": "positive",
+      "center": {
+        "x": 3.5377206412259095e-05,
+        "y": 0.0001201522143962591
+      },
+      "width": 2.378160597013614e-07,
+      "length": 1.948357458235628e-06,
+      "rotation_deg": 157.59851777672415,
+      "source": "particle_particle",
+      "owner_particle_name": null
+    },
+    {
+      "name": "pos_b54",
+      "electrode": "positive",
+      "center": {
+        "x": 3.162050550134801e-05,
+        "y": 0.00012051455941097878
+      },
+      "width": 2.1183897345218952e-07,
+      "length": 2.57214336397098e-06,
+      "rotation_deg": -138.5365477611914,
+      "source": "particle_particle",
+      "owner_particle_name": null
+    },
+    {
+      "name": "pos_b55",
+      "electrode": "positive",
+      "center": {
+        "x": 3.472158867696104e-05,
+        "y": 0.00011409667750079785
+      },
+      "width": 2.2199924298429448e-07,
+      "length": 2.579364144273115e-06,
+      "rotation_deg": 32.04431511632332,
+      "source": "particle_particle",
+      "owner_particle_name": null
+    },
+    {
+      "name": "pos_b56",
+      "electrode": "positive",
+      "center": {
+        "x": 3.1029162037573033e-05,
+        "y": 0.00011445350928140298
+      },
+      "width": 2.3547789247240909e-07,
+      "length": 3.0742936837302076e-06,
+      "rotation_deg": -27.63897255638205,
+      "source": "particle_particle",
+      "owner_particle_name": null
+    },
+    {
+      "name": "pos_b57",
+      "electrode": "positive",
+      "center": {
+        "x": 3.485290091922231e-05,
+        "y": 0.0001069308546413996
+      },
+      "width": 2.401829749899834e-07,
+      "length": 4.572797361829854e-06,
+      "rotation_deg": 153.63749879427496,
+      "source": "particle_particle",
+      "owner_particle_name": null
+    },
+    {
+      "name": "pos_b58",
+      "electrode": "positive",
+      "center": {
+        "x": 1.0314847117813674e-05,
+        "y": 0.00012029839420328077
+      },
+      "width": 2.16039778431659e-07,
+      "length": 5.825037785036293e-06,
+      "rotation_deg": 157.50692164704418,
+      "source": "particle_particle",
+      "owner_particle_name": null
+    },
+    {
+      "name": "pos_b59",
+      "electrode": "positive",
+      "center": {
+        "x": 3.293537271510243e-05,
+        "y": 0.00011748612590286721
+      },
+      "width": 2.0595753053844753e-07,
+      "length": 2.8230321564063256e-06,
+      "rotation_deg": -84.52201863764267,
+      "source": "particle_particle",
+      "owner_particle_name": null
+    },
+    {
+      "name": "pos_b60",
+      "electrode": "positive",
+      "center": {
+        "x": 3.6750703461331035e-05,
+        "y": 0.00010997984519976465
+      },
+      "width": 2.1653614988855012e-07,
+      "length": 9.723946277978091e-06,
+      "rotation_deg": 178.96835221561898,
+      "source": "particle_particle",
+      "owner_particle_name": null
+    },
+    {
+      "name": "pos_b63",
+      "electrode": "positive",
+      "center": {
+        "x": 1.609843787850989e-05,
+        "y": 0.00011685375053072962
+      },
+      "width": 2.2034117847325932e-07,
+      "length": 3.538745678149838e-06,
+      "rotation_deg": 70.63887946964715,
+      "source": "particle_particle",
+      "owner_particle_name": null
+    },
+    {
+      "name": "pos_bc4",
+      "electrode": "positive",
+      "center": {
+        "x": 8.322129383045418e-06,
+        "y": 0.00012845355367029532
+      },
+      "width": 2.425298402688592e-07,
+      "length": 2.092892659409342e-06,
+      "rotation_deg": 0.0,
+      "source": "particle_collector",
+      "owner_particle_name": "pos_c19"
+    },
+    {
+      "name": "pos_bc1",
+      "electrode": "positive",
+      "center": {
+        "x": 1.633530131989273e-05,
+        "y": 0.00012850071092898293
+      },
+      "width": 2.389328847280727e-07,
+      "length": 1.9985781420341824e-06,
+      "rotation_deg": 0.0,
+      "source": "particle_collector",
+      "owner_particle_name": "pos_c3"
+    },
+    {
+      "name": "pos_bc2",
+      "electrode": "positive",
+      "center": {
+        "x": 2.5335589200797168e-05,
+        "y": 0.00012776380426005913
+      },
+      "width": 2.1579393036994838e-07,
+      "length": 3.4723914798817114e-06,
+      "rotation_deg": 0.0,
+      "source": "particle_collector",
+      "owner_particle_name": "pos_c10"
+    },
+    {
+      "name": "pos_bc3",
+      "electrode": "positive",
+      "center": {
+        "x": 3.408032435790505e-05,
+        "y": 0.00012761366202038496
+      },
+      "width": 2.1455422785691957e-07,
+      "length": 3.772675959230054e-06,
+      "rotation_deg": 0.0,
+      "source": "particle_collector",
+      "owner_particle_name": "pos_c16"
+    }
+  ],
+  "negative_segments": [
+    {
+      "start": {
+        "x": 2.8941487674564637e-05,
+        "y": 4.470202103115489e-05
+      },
+      "end": {
+        "x": 2.8276591682328436e-05,
+        "y": 4.979713832351544e-05
+      }
+    },
+    {
+      "start": {
+        "x": 2.584175939365128e-05,
+        "y": 3.919114138404711e-05
+      },
+      "end": {
+        "x": 1.9546591614763505e-05,
+        "y": 3.6407836171095525e-05
+      }
+    },
+    {
+      "start": {
+        "x": 3.0107489166661443e-05,
+        "y": 3.689451835095704e-05
+      },
+      "end": {
+        "x": 3.103016232623346e-05,
+        "y": 3.141204631381904e-05
+      }
+    },
+    {
+      "start": {
+        "x": 2.6368763208289782e-05,
+        "y": 4.3252478981975e-05
+      },
+      "end": {
+        "x": 2.365294686224102e-05,
+        "y": 4.5423494754155087e-05
+      }
+    },
+    {
+      "start": {
+        "x": 3.181270753163742e-05,
+        "y": 4.395183437479366e-05
+      },
+      "end": {
+        "x": 3.416580566391896e-05,
+        "y": 4.7106405725975744e-05
+      }
+    },
+    {
+      "start": {
+        "x": 2.8919055683243232e-05,
+        "y": 1.810304821732808e-05
+      },
+      "end": {
+        "x": 2.4269131529022985e-05,
+        "y": 2.2783907082127362e-05
+      }
+    },
+    {
+      "start": {
+        "x": 3.163421947304182e-05,
+        "y": 1.9234531064788234e-05
+      },
+      "end": {
+        "x": 3.159037398852899e-05,
+        "y": 2.500150529398029e-05
+      }
+    },
+    {
+      "start": {
+        "x": 3.077611115929908e-05,
+        "y": 1.1547905630579744e-05
+      },
+      "end": {
+        "x": 3.009886315294408e-05,
+        "y": 8.654870907652956e-06
+      }
+    },
+    {
+      "start": {
+        "x": 2.7805701552889582e-05,
+        "y": 1.587198032434424e-05
+      },
+      "end": {
+        "x": 2.5422748152903068e-05,
+        "y": 1.620054625993776e-05
+      }
+    },
+    {
+      "start": {
+        "x": 1.2058779757668386e-05,
+        "y": 4.091778876618664e-05
+      },
+      "end": {
+        "x": 1.4433520629185009e-05,
+        "y": 3.774577553055745e-05
+      }
+    },
+    {
+      "start": {
+        "x": 8.6381828310704e-06,
+        "y": 4.7756902580883054e-05
+      },
+      "end": {
+        "x": 6.908180190139354e-06,
+        "y": 5.3664044586193813e-05
+      }
+    },
+    {
+      "start": {
+        "x": 1.1711342121796947e-05,
+        "y": 4.737050012529095e-05
+      },
+      "end": {
+        "x": 1.5518490065645084e-05,
+        "y": 5.379358758983161e-05
+      }
+    },
+    {
+      "start": {
+        "x": 1.3466588438250911e-05,
+        "y": 4.5093902826935604e-05
+      },
+      "end": {
+        "x": 1.8353995737088407e-05,
+        "y": 4.648801385004105e-05
+      }
+    },
+    {
+      "start": {
+        "x": 7.506737515810987e-06,
+        "y": 4.084182136280504e-05
+      },
+      "end": {
+        "x": 5.8720212960387696e-06,
+        "y": 3.8499235127090214e-05
+      }
+    },
+    {
+      "start": {
+        "x": 6.960213431750806e-06,
+        "y": 1.2922142458257643e-05
+      },
+      "end": {
+        "x": 7.379632207819686e-06,
+        "y": 9.790104683905248e-06
+      }
+    },
+    {
+      "start": {
+        "x": 7.3983657481025105e-06,
+        "y": 2.0219690611575635e-05
+      },
+      "end": {
+        "x": 8.655809909297234e-06,
+        "y": 2.5082151197471293e-05
+      }
+    },
+    {
+      "start": {
+        "x": 9.784978415364264e-06,
+        "y": 1.4923833779613902e-05
+      },
+      "end": {
+        "x": 1.3100158995805725e-05,
+        "y": 1.3235920414394362e-05
+      }
+    },
+    {
+      "start": {
+        "x": 1.0015896031399107e-05,
+        "y": 1.7740522877948255e-05
+      },
+      "end": {
+        "x": 1.3576064672615584e-05,
+        "y": 1.8870510653374557e-05
+      }
+    },
+    {
+      "start": {
+        "x": 2.445569873391761e-05,
+        "y": 5.427371253724894e-05
+      },
+      "end": {
+        "x": 2.0055205363246743e-05,
+        "y": 5.557480543369943e-05
+      }
+    },
+    {
+      "start": {
+        "x": 2.522596354668283e-05,
+        "y": 5.091528166901467e-05
+      },
+      "end": {
+        "x": 2.352663273339215e-05,
+        "y": 4.9368661799584805e-05
+      }
+    },
+    {
+      "start": {
+        "x": 3.0967132697461875e-05,
+        "y": 5.1717857899314996e-05
+      },
+      "end": {
+        "x": 3.334553550384367e-05,
+        "y": 5.05377030944785e-05
+      }
+    },
+    {
+      "start": {
+        "x": 3.1057023263619144e-05,
+        "y": 5.464269046955269e-05
+      },
+      "end": {
+        "x": 3.3350787524215644e-05,
+        "y": 5.561018714523634e-05
+      }
+    },
+    {
+      "start": {
+        "x": 2.0155046348186657e-05,
+        "y": 2.829135621882278e-05
+      },
+      "end": {
+        "x": 1.8080046188551586e-05,
+        "y": 3.2079899861786115e-05
+      }
+    },
+    {
+      "start": {
+        "x": 1.845271126042243e-05,
+        "y": 2.6080049245787377e-05
+      },
+      "end": {
+        "x": 1.271087118994765e-05,
+        "y": 2.749996407510054e-05
+      }
+    },
+    {
+      "start": {
+        "x": 2.5142009353017666e-05,
+        "y": 2.6262766557863393e-05
+      },
+      "end": {
+        "x": 2.847949266434151e-05,
+        "y": 2.7284375388665155e-05
+      }
+    },
+    {
+      "start": {
+        "x": 2.2242856986305357e-05,
+        "y": 2.1800806529330553e-05
+      },
+      "end": {
+        "x": 2.2572777216541712e-05,
+        "y": 1.909551135891375e-05
+      }
+    },
+    {
+      "start": {
+        "x": 1.932353536325027e-05,
+        "y": 2.283726934760934e-05
+      },
+      "end": {
+        "x": 1.784949136691419e-05,
+        "y": 2.1416107946871358e-05
+      }
+    },
+    {
+      "start": {
+        "x": 1.0660299046417738e-05,
+        "y": 8.333948636060882e-06
+      },
+      "end": {
+        "x": 1.3302958324770074e-05,
+        "y": 1.0150452041355116e-05
+      }
+    },
+    {
+      "start": {
+        "x": 1.4030516965358935e-05,
+        "y": 3.2693493777211536e-05
+      },
+      "end": {
+        "x": 1.1873627317195477e-05,
+        "y": 3.0606370543229046e-05
+      }
+    },
+    {
+      "start": {
+        "x": 1.7691715379426975e-05,
+        "y": 3.818597505140331e-05
+      },
+      "end": {
+        "x": 2.0166943921745203e-05,
+        "y": 4.4491721478792865e-05
+      }
+    },
+    {
+      "start": {
+        "x": 7.6274217054881615e-06,
+        "y": 3.10482624523265e-05
+      },
+      "end": {
+        "x": 5.836445179463563e-06,
+        "y": 3.369757492348631e-05
+      }
+    },
+    {
+      "start": {
+        "x": 1.1486141119049838e-05,
+        "y": 2.5645404405556473e-05
+      },
+      "end": {
+        "x": 1.4473113004501907e-05,
+        "y": 2.1682928814261658e-05
+      }
+    },
+    {
+      "start": {
+        "x": 9.202448545383315e-06,
+        "y": 5.664804411604108e-05
+      },
+      "end": {
+        "x": 1.4005692501954305e-05,
+        "y": 5.652782137898616e-05
+      }
+    },
+    {
+      "start": {
+        "x": 1.838041160911262e-05,
+        "y": 5.364287138199708e-05
+      },
+      "end": {
+        "x": 2.0010896996810064e-05,
+        "y": 5.0086063853933725e-05
+      }
+    },
+    {
+      "start": {
+        "x": 1.7728712897137285e-05,
+        "y": 9.537880200088897e-06
+      },
+      "end": {
+        "x": 1.9281135460036014e-05,
+        "y": 7.670346802581259e-06
+      }
+    },
+    {
+      "start": {
+        "x": 1.8318079192677782e-05,
+        "y": 1.3531911780732895e-05
+      },
+      "end": {
+        "x": 2.0744742284406707e-05,
+        "y": 1.5136631238474152e-05
+      }
+    },
+    {
+      "start": {
+        "x": 1.587902594944109e-05,
+        "y": 1.4886939463459535e-05
+      },
+      "end": {
+        "x": 1.593999429191851e-05,
+        "y": 1.7089939036460337e-05
+      }
+    },
+    {
+      "start": {
+        "x": 2.6478732451753593e-05,
+        "y": 5.665439099091763e-06
+      },
+      "end": {
+        "x": 2.4005840458048295e-05,
+        "y": 5.567246191129813e-06
+      }
+    },
+    {
+      "start": {
+        "x": 2.789450711048409e-05,
+        "y": 8.303574791828436e-06
+      },
+      "end": {
+        "x": 2.4214416512402034e-05,
+        "y": 1.4359831220898025e-05
+      }
+    },
+    {
+      "start": {
+        "x": 2.1575810690897275e-05,
+        "y": 8.300922051126408e-06
+      },
+      "end": {
+        "x": 2.2481878713387566e-05,
+        "y": 1.4018657788600394e-05
+      }
+    },
+    {
+      "start": {
+        "x": 3.576683815967886e-05,
+        "y": 5.206707214559162e-05
+      },
+      "end": {
+        "x": 3.573397987250456e-05,
+        "y": 5.405706900853284e-05
+      }
+    },
+    {
+      "start": {
+        "x": 2.054526519569265e-05,
+        "y": 1.7602723347465213e-05
+      },
+      "end": {
+        "x": 1.8339972550905825e-05,
+        "y": 1.8595079187581674e-05
+      }
+    }
+  ],
+  "positive_segments": [
+    {
+      "start": {
+        "x": 3.4825649094181175e-05,
+        "y": 9.053199743327587e-05
+      },
+      "end": {
+        "x": 3.543118855334467e-05,
+        "y": 9.356204812896435e-05
+      }
+    },
+    {
+      "start": {
+        "x": 3.105207864638021e-05,
+        "y": 8.738944675347989e-05
+      },
+      "end": {
+        "x": 2.6539836358879e-05,
+        "y": 8.73205300370619e-05
+      }
+    },
+    {
+      "start": {
+        "x": 3.2385929902541846e-05,
+        "y": 9.001450336023656e-05
+      },
+      "end": {
+        "x": 3.134747158829082e-05,
+        "y": 9.14837439740629e-05
+      }
+    },
+    {
+      "start": {
+        "x": 5.902673375195285e-06,
+        "y": 0.00012082726999765776
+      },
+      "end": {
+        "x": 7.192863955948178e-06,
+        "y": 0.0001231115352611397
+      }
+    },
+    {
+      "start": {
+        "x": 7.332805580789184e-06,
+        "y": 0.00011714152103299837
+      },
+      "end": {
+        "x": 1.014449488814673e-05,
+        "y": 0.00011622103335262363
+      }
+    },
+    {
+      "start": {
+        "x": 4.091917226148882e-06,
+        "y": 0.00011500550819856853
+      },
+      "end": {
+        "x": 3.777609715289206e-06,
+        "y": 0.00011148118444964416
+      }
+    },
+    {
+      "start": {
+        "x": 1.937835534044939e-05,
+        "y": 0.00012408335130440986
+      },
+      "end": {
+        "x": 2.271517037190687e-05,
+        "y": 0.00012369469118331808
+      }
+    },
+    {
+      "start": {
+        "x": 1.3282425740938966e-05,
+        "y": 0.00012469423029103338
+      },
+      "end": {
+        "x": 1.0610293994221076e-05,
+        "y": 0.00012491868369883763
+      }
+    },
+    {
+      "start": {
+        "x": 1.5071243310163455e-05,
+        "y": 0.0001216471025336636
+      },
+      "end": {
+        "x": 1.322812281128425e-05,
+        "y": 0.00011757799903216696
+      }
+    },
+    {
+      "start": {
+        "x": 1.7835723070051917e-05,
+        "y": 0.00012176673870801361
+      },
+      "end": {
+        "x": 1.8771088069034863e-05,
+        "y": 0.00012010159838343848
+      }
+    },
+    {
+      "start": {
+        "x": 2.2488349960041258e-05,
+        "y": 0.00010421578092146457
+      },
+      "end": {
+        "x": 2.4442043994585326e-05,
+        "y": 0.00010369576233679371
+      }
+    },
+    {
+      "start": {
+        "x": 1.7663900457629654e-05,
+        "y": 0.00010267640483013281
+      },
+      "end": {
+        "x": 1.612202770505043e-05,
+        "y": 0.0001008193131304342
+      }
+    },
+    {
+      "start": {
+        "x": 1.6765084523220003e-05,
+        "y": 0.00010603207984778904
+      },
+      "end": {
+        "x": 1.3423394652830557e-05,
+        "y": 0.00010726881154958596
+      }
+    },
+    {
+      "start": {
+        "x": 2.068363185033967e-05,
+        "y": 0.00010219168949790996
+      },
+      "end": {
+        "x": 2.2100194050170835e-05,
+        "y": 9.85887808873563e-05
+      }
+    },
+    {
+      "start": {
+        "x": 2.139341324302628e-05,
+        "y": 0.0001073887214561905
+      },
+      "end": {
+        "x": 2.3300727833091482e-05,
+        "y": 0.0001099182153252814
+      }
+    },
+    {
+      "start": {
+        "x": 1.8952366677001802e-05,
+        "y": 0.00010792740811953902
+      },
+      "end": {
+        "x": 1.8564536790594288e-05,
+        "y": 0.00010973210816090596
+      }
+    },
+    {
+      "start": {
+        "x": 2.5730024110065486e-05,
+        "y": 0.00010051995971373835
+      },
+      "end": {
+        "x": 2.4455146141417004e-05,
+        "y": 9.839350024558046e-05
+      }
+    },
+    {
+      "start": {
+        "x": 2.9438139229111938e-05,
+        "y": 0.00010120768574134136
+      },
+      "end": {
+        "x": 3.388888451497834e-05,
+        "y": 9.772511949333927e-05
+      }
+    },
+    {
+      "start": {
+        "x": 2.6479830464937658e-05,
+        "y": 0.00010572044162519706
+      },
+      "end": {
+        "x": 2.550504830168908e-05,
+        "y": 0.00010948010545283788
+      }
+    },
+    {
+      "start": {
+        "x": 2.8820332423573225e-05,
+        "y": 0.00010530222865506392
+      },
+      "end": {
+        "x": 3.14958247386192e-05,
+        "y": 0.0001091521581174804
+      }
+    },
+    {
+      "start": {
+        "x": 3.004306511777405e-05,
+        "y": 0.00010292749482685644
+      },
+      "end": {
+        "x": 3.4602495550720994e-05,
+        "y": 0.00010287054705497618
+      }
+    },
+    {
+      "start": {
+        "x": 2.800745386798831e-05,
+        "y": 0.00010023292415881901
+      },
+      "end": {
+        "x": 2.9448551548505828e-05,
+        "y": 9.539182422143121e-05
+      }
+    },
+    {
+      "start": {
+        "x": 9.836604765737855e-06,
+        "y": 9.017671639436284e-05
+      },
+      "end": {
+        "x": 1.302686635509093e-05,
+        "y": 9.619751663725812e-05
+      }
+    },
+    {
+      "start": {
+        "x": 7.8645192744322e-06,
+        "y": 9.042564810000625e-05
+      },
+      "end": {
+        "x": 6.758905561146591e-06,
+        "y": 9.5020472991206e-05
+      }
+    },
+    {
+      "start": {
+        "x": 1.13135423386803e-05,
+        "y": 8.738932969777673e-05
+      },
+      "end": {
+        "x": 1.5147101213949669e-05,
+        "y": 8.696968924033218e-05
+      }
+    },
+    {
+      "start": {
+        "x": 1.3374439596699997e-05,
+        "y": 0.0001012935873025339
+      },
+      "end": {
+        "x": 1.178435142670646e-05,
+        "y": 0.00010563532881402263
+      }
+    },
+    {
+      "start": {
+        "x": 1.701852882200809e-05,
+        "y": 9.787975106115228e-05
+      },
+      "end": {
+        "x": 2.0512078609602076e-05,
+        "y": 9.68530435747636e-05
+      }
+    },
+    {
+      "start": {
+        "x": 1.1569021884653368e-05,
+        "y": 9.826610255431242e-05
+      },
+      "end": {
+        "x": 8.671466695539628e-06,
+        "y": 9.784511083450741e-05
+      }
+    },
+    {
+      "start": {
+        "x": 1.5057842134740394e-05,
+        "y": 9.596690833240019e-05
+      },
+      "end": {
+        "x": 1.691260576004113e-05,
+        "y": 8.902645059172504e-05
+      }
+    },
+    {
+      "start": {
+        "x": 9.735671859313967e-06,
+        "y": 0.00010569557655957669
+      },
+      "end": {
+        "x": 7.175345468835846e-06,
+        "y": 9.980254237588213e-05
+      }
+    },
+    {
+      "start": {
+        "x": 1.325964236686246e-05,
+        "y": 0.00010954504385061236
+      },
+      "end": {
+        "x": 1.5874899495727787e-05,
+        "y": 0.00011096729718781552
+      }
+    },
+    {
+      "start": {
+        "x": 1.1376968355844415e-05,
+        "y": 0.00011093257461295092
+      },
+      "end": {
+        "x": 1.1850584627199872e-05,
+        "y": 0.00011329869342842794
+      }
+    },
+    {
+      "start": {
+        "x": 8.103733419043323e-06,
+        "y": 0.00010861889325037319
+      },
+      "end": {
+        "x": 5.779216388046765e-06,
+        "y": 0.00010895269679507259
+      }
+    },
+    {
+      "start": {
+        "x": 2.3372099719389104e-05,
+        "y": 9.343889178778332e-05
+      },
+      "end": {
+        "x": 2.3777388589965618e-05,
+        "y": 8.975775856579312e-05
+      }
+    },
+    {
+      "start": {
+        "x": 2.171828064314831e-05,
+        "y": 9.379480138135704e-05
+      },
+      "end": {
+        "x": 1.8752324233145035e-05,
+        "y": 8.877426013127697e-05
+      }
+    },
+    {
+      "start": {
+        "x": 2.556145048999782e-05,
+        "y": 9.509934284527156e-05
+      },
+      "end": {
+        "x": 2.803431410347808e-05,
+        "y": 9.410385582940843e-05
+      }
+    },
+    {
+      "start": {
+        "x": 2.7973580534636904e-05,
+        "y": 0.00012336201687313753
+      },
+      "end": {
+        "x": 3.1651586959276856e-05,
+        "y": 0.0001233237344973338
+      }
+    },
+    {
+      "start": {
+        "x": 2.6857670983807592e-05,
+        "y": 0.00012123470766461706
+      },
+      "end": {
+        "x": 2.793838784391841e-05,
+        "y": 0.00011970476843696147
+      }
+    },
+    {
+      "start": {
+        "x": 2.3424447958218626e-05,
+        "y": 0.00012157087831546223
+      },
+      "end": {
+        "x": 2.1456237034690954e-05,
+        "y": 0.00011969797620152228
+      }
+    },
+    {
+      "start": {
+        "x": 3.63019896844607e-05,
+        "y": 9.8700642157593e-05
+      },
+      "end": {
+        "x": 3.656491334452498e-05,
+        "y": 0.00010058699156430214
+      }
+    },
+    {
+      "start": {
+        "x": 3.359514034822791e-05,
+        "y": 9.498340979528298e-05
+      },
+      "end": {
+        "x": 3.205871892590884e-05,
+        "y": 9.42402951305708e-05
+      }
+    },
+    {
+      "start": {
+        "x": 2.2273174135357692e-05,
+        "y": 0.00011204453197748566
+      },
+      "end": {
+        "x": 2.0515426840717864e-05,
+        "y": 0.00011208742304489721
+      }
+    },
+    {
+      "start": {
+        "x": 2.7422970869948078e-05,
+        "y": 0.00011168015074332033
+      },
+      "end": {
+        "x": 3.0520759534377144e-05,
+        "y": 0.0001113164199794658
+      }
+    },
+    {
+      "start": {
+        "x": 2.6408490915083522e-05,
+        "y": 0.00011404762710431546
+      },
+      "end": {
+        "x": 2.7884390735973375e-05,
+        "y": 0.0001160124644134281
+      }
+    },
+    {
+      "start": {
+        "x": 2.3232601233706078e-05,
+        "y": 0.00011399159661962432
+      },
+      "end": {
+        "x": 2.124391684091874e-05,
+        "y": 0.00011645323267052016
+      }
+    },
+    {
+      "start": {
+        "x": 5.62432829607768e-06,
+        "y": 9.995334815809718e-05
+      },
+      "end": {
+        "x": 4.05641807771628e-06,
+        "y": 0.00010709859566185722
+      }
+    },
+    {
+      "start": {
+        "x": 2.1569293469457912e-05,
+        "y": 8.706409131986999e-05
+      },
+      "end": {
+        "x": 1.992193988583416e-05,
+        "y": 8.691904783551769e-05
+      }
+    },
+    {
+      "start": {
+        "x": 2.5814800774356564e-05,
+        "y": 8.903929820940869e-05
+      },
+      "end": {
+        "x": 2.851631413668076e-05,
+        "y": 9.17284260075276e-05
+      }
+    },
+    {
+      "start": {
+        "x": 1.591365119849634e-05,
+        "y": 0.00011339671669549525
+      },
+      "end": {
+        "x": 1.4246690970497286e-05,
+        "y": 0.00011437340042652397
+      }
+    },
+    {
+      "start": {
+        "x": 1.8755750117238834e-05,
+        "y": 0.00011451411959800768
+      },
+      "end": {
+        "x": 1.921838118889943e-05,
+        "y": 0.00011605536610686569
+      }
+    },
+    {
+      "start": {
+        "x": 3.500595245732482e-05,
+        "y": 0.00012105287787237616
+      },
+      "end": {
+        "x": 3.5748460367193366e-05,
+        "y": 0.00011925155092014204
+      }
+    },
+    {
+      "start": {
+        "x": 3.247206779626347e-05,
+        "y": 0.00012147831354408706
+      },
+      "end": {
+        "x": 3.076894320643254e-05,
+        "y": 0.0001195508052778705
+      }
+    },
+    {
+      "start": {
+        "x": 3.4037315580636547e-05,
+        "y": 0.00011300349399523398
+      },
+      "end": {
+        "x": 3.5405861773285535e-05,
+        "y": 0.00011518986100636173
+      }
+    },
+    {
+      "start": {
+        "x": 3.174224249467475e-05,
+        "y": 0.0001130917689701999
+      },
+      "end": {
+        "x": 3.0316081580471317e-05,
+        "y": 0.00011581524959260605
+      }
+    },
+    {
+      "start": {
+        "x": 3.383762818946242e-05,
+        "y": 0.00010897947374027948
+      },
+      "end": {
+        "x": 3.586817364898221e-05,
+        "y": 0.00010488223554251971
+      }
+    },
+    {
+      "start": {
+        "x": 9.200599464855092e-06,
+        "y": 0.00012298934542304515
+      },
+      "end": {
+        "x": 1.1429094770772256e-05,
+        "y": 0.00011760744298351639
+      }
+    },
+    {
+      "start": {
+        "x": 3.434044234033043e-05,
+        "y": 0.00011735137803725262
+      },
+      "end": {
+        "x": 3.153030308987443e-05,
+        "y": 0.0001176208737684818
+      }
+    },
+    {
+      "start": {
+        "x": 3.666316520217951e-05,
+        "y": 0.00011484103022580879
+      },
+      "end": {
+        "x": 3.683824172048256e-05,
+        "y": 0.00010511866017372052
+      }
+    },
+    {
+      "start": {
+        "x": 1.4429126900762512e-05,
+        "y": 0.00011626716626293161
+      },
+      "end": {
+        "x": 1.776774885625727e-05,
+        "y": 0.00011744033479852763
+      }
+    }
+  ],
+  "selections": [],
+  "negative_packing_stats": {
+    "target_area_fraction": 0.5,
+    "actual_area_fraction": 0.5023531119639135,
+    "target_particle_area": 1.2200000000000001e-09,
+    "actual_particle_area": 1.2257415931919492e-09,
+    "particle_count": 21,
+    "placement_attempts": 759,
+    "success": true,
+    "message": ""
+  },
+  "positive_packing_stats": {
+    "target_area_fraction": 0.5,
+    "actual_area_fraction": 0.4996187352029251,
+    "target_particle_area": 9.700000000000002e-10,
+    "actual_particle_area": 9.69260346293675e-10,
+    "particle_count": 26,
+    "placement_attempts": 6239,
+    "success": true,
+    "message": ""
+  },
+  "negative_binder_stats": {
+    "target_fraction": 0.03,
+    "estimated_mean_width": 2.8260897454117284e-07,
+    "bridge_count": 45,
+    "total_bridge_length": 0.00017995016179458737,
+    "success": true,
+    "message": ""
+  },
+  "positive_binder_stats": {
+    "target_fraction": 0.03,
+    "estimated_mean_width": 2.2774677678838583e-07,
+    "bridge_count": 63,
+    "total_bridge_length": 0.00022096996038249952,
+    "success": true,
+    "message": ""
+  },
+  "metadata": {
+    "stage": "geometry_prebuild",
+    "description": "Particles and binder network prepared in Python before COMSOL Java export.",
+    "geometry_quality_status": "ready",
+    "geometry_quality_error_count": "0",
+    "geometry_quality_warning_count": "0"
+  }
+}

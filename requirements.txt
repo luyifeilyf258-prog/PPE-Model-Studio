@@ -1,0 +1,21 @@
+# PPE_MODEL Python dependencies
+# Recommended Python: 3.10+
+# Install with:
+#   pip install -r requirements.txt
+
+# Core geometry generation, sampling, packing, triangulation and plotting
+numpy>=1.26,<3
+scipy>=1.11,<2
+matplotlib>=3.8,<4
+PyYAML>=6.0,<7
+
+# GUI and CSV result analysis modules under gui/
+pandas>=2.0,<3
+PyQt6>=6.6,<7
+
+# Notes:
+# 1. COMSOL Multiphysics is an external dependency and is not installed by pip.
+#    Make sure comsolbatch is available in PATH, or configure its executable path in the project.
+# 2. Low-level packages such as contourpy, cycler, fonttools, kiwisolver,
+#    packaging, pillow, pyparsing, python-dateutil and six are matplotlib/pandas
+#    transitive dependencies, so they are intentionally not pinned here.
